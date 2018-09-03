@@ -1,7 +1,7 @@
 # InteractiveAgency
 This is Bootstrap 3 Theme
 
-For Live Preview : http://powerware.site/power/Band/
+For Live Preview : http://powerware.site/power/InteractiveAgency/
 
 Template Features:
 
