@@ -20,9 +20,9 @@
   "author": "Mohamed Ashamallah",
   "license": "GNU",
   "bugs": {
-    "url": "https://github.com/Power50015/InteractiveAgency/issues"
+    "url": "https://github.com/Power50015/InteractiveAgency-Bulma-Team-Template/issues"
   },
-  "homepage": "https://github.com/Power50015/InteractiveAgency#readme",
+  "homepage": "https://github.com/Power50015/InteractiveAgency-Bulma-Team-Template#readme",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
