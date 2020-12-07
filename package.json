@@ -42,7 +42,6 @@
     "gulp-uglify-es": "^2.0.0",
     "gulp-util": "^3.0.8",
     "gulplog": "^1.0.0",
-    "node-notifier": "^6.0.0",
-    "notify-send":"^0.1.2"
+    "node-notifier": "^6.0.0"
   }
 }
