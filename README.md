@@ -25,7 +25,7 @@ For Live Preview :https://interactive-agency-bulma-team-template.netlify.app/
 4. Start development mode
 
     ```bash
-    npm run gulp:dev
+    npm run dev
     ```
 
 5. In browser open page with address [http://localhost:3000/](http://localhost:3000/)
