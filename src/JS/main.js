@@ -1,3 +1,4 @@
+import '../CSS/style.css';
 // nav scroll
 $("a").click(function () {
   $("html, body").animate(

@@ -1,11 +1,11 @@
-# InteractiveAgency (Bulma team Template)
+# interactive agency bulma team template
 
 an old template I made for education purpose.
 this was a bootstrap template but I convert the template to be bulma.css template
 
 ![Preview Img](UX/InteractiveAgency.png)
 
-For Live Preview :https://InteractiveAgency-bulma-team-template.netlify.app/
+For Live Preview :https://interactive-agency-bulma-team-template.netlify.app/
 
 ## Quickstart
 
@@ -13,7 +13,7 @@ For Live Preview :https://InteractiveAgency-bulma-team-template.netlify.app/
 2. Clone the project
 
     ```bash
-    git clone https://Power50015/InteractiveAgency-bulma-team-Template.git
+    git clone https://github.com/Power50015/interactive-agency-bulma-team-template.git
     ```
 
 3. Go to project folder and run
@@ -66,8 +66,8 @@ information. All files and code has been well organized and nicely commented for
 - Google Fonts 
 - Font Awesome
 - Jquery
-- Gulp
 - OwlCarousel 2
+- Webpack
 
 ## Support:
 
