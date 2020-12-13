@@ -32,8 +32,8 @@ For Live Preview :https://interactive-agency-bulma-team-template.netlify.app/
 
 ### Main tasks
 
-- npm run gulp:dev -  launches watchers and server & compile project.
-- npm run gulp:build - optimize & minify files for production version.
+- npm run dev -  launches watchers and server & compile project.
+- npm run build - optimize & minify files for production version.
 
 ## INTRODUCTION & FEATURE
 
