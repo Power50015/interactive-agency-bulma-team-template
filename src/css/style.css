@@ -1,0 +1,189 @@
+/*
+Theme Name: InteractiveAgency
+Theme URI: https://github.com/Power50015/InteractiveAgency/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Base, Root & Global Classes
+2.0 Layout
+    2.1 header&nav
+    2.2 Features Section
+    2.3 Service Section
+    2.4 Portfolio Section
+    2.5 Team section
+    2.6 Map Section
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 Base & Global Classes
+--------------------------------------------------------------*/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.btu {
+  background: linear-gradient(to right, #49007c 12%, #b70084 74%);
+  padding: 15px 50px !important;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.2s linear;
+  display: inline-block;
+}
+.btu:hover {
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+2.0 Layout
+--------------------------------------------------------------*/
+/*2.1-header&nav*/
+header.header {
+  background-image: url(../Img/Header.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+header.header nav.nav {
+  background: transparent;
+}
+header.header .navbar-menu .menu > a {
+  font-size: 18px;
+  display: inline-block;
+}
+header.header .navbar-menu .menu > a:nth-last-of-type(1) {
+  padding: 11px 30px !important;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+header.header .navbar-menu .menu > a:nth-last-of-type(1):hover {
+  border: 1px solid #000 !important;
+}
+header.header .navbar-menu .menu > a {
+  color: #000;
+}
+header.header .navbar-menu .menu > a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom: 5px solid #000;
+  padding-bottom: 5px;
+}
+header.header .content {
+  text-align: center;
+  margin-top: 30vh;
+}
+header.header .content h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+}
+header.header .content p {
+  color: #949494;
+  margin: 17px 0 64px;
+}
+header.header .scroll-btu {
+  position: absolute;
+  bottom: 30px;
+  right: 48%;
+  transition: 0.5s linear;
+}
+header.header .scroll-btu:hover {
+  cursor: pointer;
+  bottom: 20px;
+}
+/*2.2- Features section*/
+.features .item {
+  min-height: 522px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.features .item .format h2 {
+  font-size: 48px;
+}
+.features .item .format p {
+  line-height: 35px;
+}
+.features .item.best-des {
+  background-image: url(../Img/CodeDesineSection.jpg);
+}
+.features .item.best-code {
+  background-image: url(../Img/CodeDesineSection2.jpg);
+}
+/* 2.3 Service Section*/
+.service h2 {
+  font-size: 48px;
+}
+.service h3 {
+  font-size: 30px;
+}
+.service p {
+  color: #949494;
+  font-size: 16px;
+  line-height: 25px;
+}
+/* 2.4 portfolio section*/
+.portfolio .owl-carousel .overlay {
+  width: 100%;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0);
+  opacity: 0;
+  height: 100%;
+  transition: 0.5s ease-in;
+}
+.portfolio .owl-carousel .overlay h3{
+  font-size: 20px;
+}
+.portfolio .owl-carousel .item:hover .overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+  opacity: 1;
+  cursor: pointer;
+}
+.portfolio .customPrevBtn {
+  left: -10px;
+  position: absolute;
+  z-index: 9999;
+  padding-top: 10%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.portfolio .customPrevBtn:hover {
+  left: 0;
+}
+.customNextBtn {
+  right: -10px;
+  position: absolute;
+  z-index: 9999;
+  padding-top: 10%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.customNextBtn:hover {
+  right: 0;
+}
+/* 2.5 Team section*/
+.team {
+  background-image: url(../Img/About.jpg);
+  width: 100%;
+  min-height: 900px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+.team h2 {
+  font-size: 48px;
+}
+.team p {
+  color: #949494;
+  font-size: 18px;
+  line-height: 35px;
+}
+/* 2.6 Map Section */
+#google-map {
+  height: 500px;
+  width: 100%;
+}
