@@ -2,7 +2,7 @@
   "name": "interactive-agency-bulma-team-template",
   "version": "2.1.0",
   "description": "Bulma.css template for small teams",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server  --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
