@@ -5,7 +5,7 @@ this was a bootstrap template but I convert the template to be bulma.css templat
 
 ![Preview Img](UX/InteractiveAgency.png)
 
-For Live Preview :https://interactive-agency-bulma-team-template.netlify.app/
+For Live Preview :https://interactive-agency-bulma-team-template.mohamed-ashamallah.com/
 
 ## Quickstart
 
