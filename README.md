@@ -1,4 +1,4 @@
-# interactive agency bulma team template
+# Interactive Agency bulma team template
 
 an old template I made for education purpose.
 this was a bootstrap template but I convert the template to be bulma.css template
